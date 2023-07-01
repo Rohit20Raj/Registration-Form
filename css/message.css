@@ -1,0 +1,12 @@
+body{
+    padding: 50px;
+    /* margin: auto; */
+}
+
+.error-box {
+    background-color: #e1f3d8;
+    padding: 10px;
+    border: 1px solid #a3d49f;
+    border-radius: 4px;
+    margin: auto;
+}

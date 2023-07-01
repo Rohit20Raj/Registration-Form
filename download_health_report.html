@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Download health report</title>
+	<link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="./css/nunito-font.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body class="form-v9">
+	<div class="page-content">
+		<div class="form-v9-content" style="background-image: url('images/form-v9.jpg')">
+			<form class="form-detail" action="./php/fetch_report.php" method="get" enctype="multipart/form-data">
+				<h2>Dowload Health Report</h2>
+				
+				<div class="form-row-last">
+                    <input type="email" name="email" id="email" class="input-text" placeholder="Your email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
+					<input type="submit" name="Submit" class="submit" value="Download Report">
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
